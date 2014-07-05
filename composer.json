@@ -1,0 +1,23 @@
+{
+    "name": "bobbydhillon/validation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Gurbir Dhillon",
+            "email": "gs.bobby@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Bobbydhillon\\Validation\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
